@@ -1,0 +1,23 @@
+<<<<<<< HEAD
+ipykernel
+fastapi
+uvicorn
+python-dotenv
+pandas
+pydantic
+python-multipart
+langchain
+fastapi[standard]
+biopython
+=======
+ipykernel
+fastapi
+uvicorn
+python-dotenv
+pandas
+pydantic
+python-multipart
+langchain
+fastapi[standard]
+biopython
+>>>>>>> 9d01fc8f0ff8f2102c69f574c24b4799c81fd56d

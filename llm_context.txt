@@ -1,0 +1,79 @@
+<<<<<<< HEAD
+
+This server is designed to assist forensic researchers in analyzing and comparing DNA sequences from ancient remains. It allows users to upload ancient sample data, generate DNA sequences using a specialized function, compare the genetic similarity between samples, and ask natural language questions about its features.
+
+The API offers four main endpoints:
+
+/upload-csv/ – Upload a CSV file with ancient remains data (id, region, age, seed).
+
+/generate-sequence/ – Generate a DNA sequence for a sample using its unique ID.
+
+/compare-sequences/ – Compare the DNA sequences of two samples and receive a similarity score.
+
+/ask-me-anything/ – Ask natural language questions to understand the server’s functionality and how to use it.
+
+
+You can upload a CSV file that contains records of ancient remains. Each row should include:
+
+id: a unique sample identifier (e.g., "id_0001")
+
+region: the region where the remain was found
+
+age: the age of the sample (in decades)
+
+seed: a string seed used to generate its DNA sequence
+
+
+ In summary this APi offers the following functionalities:
+
+ 
+1. Upload and Process Data:
+   Users can upload a CSV file containing ancient samples with fields like `id`, `region`, `age`, and `seed`.
+
+2. DNA Sequence Generation:
+   The server uses a costly function to generate a DNA sequence from a sample’s attributes (`id`, `region`, `age`, `seed`).
+
+3. DNA Comparison:
+   Users can compare the DNA sequences of two samples using their IDs. The system uses local alignment (Smith-Waterman algorithm) to compute a similarity score based on matching motifs in the sequences.
+
+
+=======
+
+This server is designed to assist forensic researchers in analyzing and comparing DNA sequences from ancient remains. It allows users to upload ancient sample data, generate DNA sequences using a specialized function, compare the genetic similarity between samples, and ask natural language questions about its features.
+
+The API offers four main endpoints:
+
+/upload-csv/ – Upload a CSV file with ancient remains data (id, region, age, seed).
+
+/generate-sequence/ – Generate a DNA sequence for a sample using its unique ID.
+
+/compare-sequences/ – Compare the DNA sequences of two samples and receive a similarity score.
+
+/ask-me-anything/ – Ask natural language questions to understand the server’s functionality and how to use it.
+
+
+You can upload a CSV file that contains records of ancient remains. Each row should include:
+
+id: a unique sample identifier (e.g., "id_0001")
+
+region: the region where the remain was found
+
+age: the age of the sample (in decades)
+
+seed: a string seed used to generate its DNA sequence
+
+
+ In summary this APi offers the following functionalities:
+
+ 
+1. Upload and Process Data:
+   Users can upload a CSV file containing ancient samples with fields like `id`, `region`, `age`, and `seed`.
+
+2. DNA Sequence Generation:
+   The server uses a costly function to generate a DNA sequence from a sample’s attributes (`id`, `region`, `age`, `seed`).
+
+3. DNA Comparison:
+   Users can compare the DNA sequences of two samples using their IDs. The system uses local alignment (Smith-Waterman algorithm) to compute a similarity score based on matching motifs in the sequences.
+
+
+>>>>>>> 9d01fc8f0ff8f2102c69f574c24b4799c81fd56d
