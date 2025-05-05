@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from fastapi import FastAPI
 from app.routes import router  # import your router
 
@@ -32,5 +32,4 @@ app.include_router(router)
 def read_root():
     return {"message": "Welcome to the Ancient DNA API!"}  
 
->>>>>>> 9d01fc8f0ff8f2102c69f574c24b4799c81fd56d
        
